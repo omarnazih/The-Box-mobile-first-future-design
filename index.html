@@ -1,48 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <!-- CSS && CDN -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Title -->
     <title>The Box</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
-    
-    <div class="box_container">
+
+    <div class="main-grid">
         <header>
-            <div class="logo">
-                <img src="./img/TB.svg" alt="The Box" class="thebox_logo">
-            </div>
-            <nav class="navbar">
-                <a href="#" class="nav_items">Contact</a>
-                <a href="#" class="nav_items">Book now</a>
-                <a href="#" class="nav_items">Become a host</a>
-                <a href="#" class="nav_items">About</a>
+            <img class="logo" src="img/TB.svg" alt="The Box">
+            <nav class="nav">
+                <a href="#" class="nav__link">contact</a>
+                <a href="#" class="nav__link">book now</a>
+                <a href="#" class="nav__link">become a host</a>
+                <a href="#" class="nav__link">about</a>
             </nav>
         </header>
+
         <main>
             <h1 class="title">The Box</h1>
-            <h4 class="location">Richmond, VA</h4>
-            <img src="./img/house.jpg" alt="house image" class="main_image">
-            <div class="secondary_images">
-                <img src="./img/little-1.jpg" alt="inside the house images" class="small_images">
-                <img src="./img/little-2.jpg" alt="inside the house images" class="small_images">
+            <p class="location">Richmond, VA</p>
+            <img src="img/house.jpg" alt="" class="primary-image">
+            <div class="secondary-images">
+                <img src="img/little-1.jpg" alt="" class="secondary-image">
+                <img src="img/little-2.jpg" alt="" class="secondary-image">
             </div>
-            <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos tempora laudantium nulla saepe, cum necessitatibus. Et, iste. Nesciunt alias, doloremque sapiente natus facilis quod molestiae, possimus assumenda quisquam praesentium odio!</p>
+            <p class="description">Do you need time of from your day to day life? Well than take your summertime or
+                during the winter there is a lot to be done. In Summer go hiking or swim in the nearby lake in Winter go
+                skiing in the Snowshoe Mountain resort</p>
             <button class="btn">Book now</button>
         </main>
+
         <footer>
             <div class="social-links">
-                <a href="#" class="social-link"><img src="./img/snapchat-ghost.svg" alt="social media logo"></a>
-                <a href="#" class="social-link"><img src="./img/airbnb.svg" alt="social media logo"></a>
-                <a href="#" class="social-link"><img src="./img/instagram.svg" alt="social media logo"></a> 
+                <a href="#" class="social-link" aria-label="snapchat">
+                    <img src="img/snapchat-ghost.svg" alt="snapchat" class="social-img">
+                </a>
+                <a href="#" class="social-link" aria-label="airbnb">
+                    <img src="img/airbnb.svg" alt="airbnb" class="social-img">
+                </a>
+                <a href="#" class="social-link" aria-label="instagram">
+                    <img src="img/instagram.svg" alt="instagram" class="social-img">
+                </a>
             </div>
         </footer>
     </div>
 
 </body>
+
 </html>
